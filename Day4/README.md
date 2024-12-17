@@ -24,6 +24,7 @@ If the input is less than 0, it prints: "Number is negative."
 If neither condition is met, it prints: "Number is equal zero."
 
 
+
 Exercise 2: This exercise introduced me to the file test command -e, which checks whether a file exists.
 
 a. When the file exists, the script outputs its contents and confirms that by printing a message to the terminal.
@@ -31,6 +32,8 @@ a. When the file exists, the script outputs its contents and confirms that by pr
 b. When the file doesn’t exist, it creates a new file and writes: "This is exercise 2 script" into it.
 
 c. When this is completed, it prints an update message to the terminal.
+
+
 
 Exercise 3:
 This exercise required me to write a script that:
@@ -41,6 +44,8 @@ b. Prints whether the first number is greater than, less than, or equal to the s
 
 This script used numerical comparison commands like -gt (greater than) and -lt (less than).
  The script prompts the user to input two numbers. Based on the comparison, it prints the result. I tested this script with numbers ranging from -100 to 100, and it worked correctly.
+
+ 
 
 Exercise 4: The script I created will
 
@@ -55,7 +60,9 @@ d. Using the -e flag, the script verifies if the file exists. If it doesn’t, i
 e. If the file exists, the script checks the user’s write permissions using the -w flag. It then prints whether the user has write permission or not.
 
 
+
 Exercise 5: The script I created will
+
 a. The script checks if both the username and age are provided as inputs. If not, it prompts the user to enter the required details.
 
 b. It saves the username and age as arguments in the script.
@@ -67,5 +74,7 @@ If the age is 18 or older and the name is Admin, it prints "Access granted".
 Otherwise, it prints "Access denied".
 
 d. I tested the script with various combinations of names and ages to ensure it worked correctly, including using "Admin" and ages above and below 18.
+
+
 
 Feel free to clone the repository and try out the scripts yourself. Contributions and feedback are welcome! 😊
